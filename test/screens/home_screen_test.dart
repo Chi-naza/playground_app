@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:playground_app/screens/home_screen.dart';
 
 void main() {
-  testWidgets('home screen ... testing floating action button', (tester) async {
+  testWidgets('Home Screen ... Testing floating action button', (tester) async {
     await tester.pumpWidget(MaterialApp(home: HomeScreen()));
 
     final data = find.textContaining("0");
